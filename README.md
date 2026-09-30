@@ -79,7 +79,7 @@ Version control from the terminal.
 - **[delta](https://github.com/dandavison/delta)** — A syntax-highlighting pager for git, diff and grep output. [`MIT`](https://github.com/dandavison/delta) ⭐ 32.4k linux/macos/windows
 - **[gh](https://github.com/cli/cli)** — GitHub's official command-line tool for issues, PRs, releases and more. [`MIT`](https://github.com/cli/cli) ⭐ 46.5k [website](https://cli.github.com/) linux/macos/windows
 - **[gitui](https://github.com/extrawurst/gitui)** — A blazing-fast terminal UI for git written in Rust. [`MIT`](https://github.com/extrawurst/gitui) ⭐ 22.5k linux/macos/windows
-- **[glab](https://gitlab.com/gitlab-org/cli)** — An open-source GitLab CLI that brings merge requests and CI to your terminal. [`MIT`](https://gitlab.com/gitlab-org/cli/-/raw/main/LICENSE (MIT); GitHub mirror profclems/glab is archived) [website](https://glab.readthedocs.io/) linux/macos/windows *Upstream moved from github.com/profclems/glab (archived) to gitlab.com/gitlab-org/cli after GitLab adopted it.*
+- **[glab](https://gitlab.com/gitlab-org/cli)** — An open-source GitLab CLI that brings merge requests and CI to your terminal. [`MIT`](https://gitlab.com/gitlab-org/cli/-/raw/main/LICENSE) [website](https://glab.readthedocs.io/) linux/macos/windows *Upstream moved from github.com/profclems/glab (archived) to gitlab.com/gitlab-org/cli after GitLab adopted it.*
 - **[jj](https://github.com/jj-vcs/jj)** — Jujutsu — a Git-compatible version control system with a simpler mental model. [`Apache-2.0`](https://github.com/jj-vcs/jj) ⭐ 31.8k [website](https://jj-vcs.github.io/jj/) linux/macos/windows
 - **[lazygit](https://github.com/jesseduffield/lazygit)** — A simple, keyboard-driven TUI for git commands. [`MIT`](https://github.com/jesseduffield/lazygit) ⭐ 82.8k linux/macos/windows
 - **[tig](https://github.com/jonas/tig)** — A classic ncurses text-mode interface for git repositories. [`GPL-2.0-or-later`](https://github.com/jonas/tig) ⭐ 13.4k [website](https://jonas.github.io/tig/) linux/macos
@@ -92,7 +92,7 @@ Terminal text editors.
 - **[helix](https://github.com/helix-editor/helix)** — A post-modern modal text editor inspired by Kakoune, written in Rust. [`MPL-2.0`](https://github.com/helix-editor/helix) ⭐ 46.4k [website](https://helix-editor.com/) linux/macos/windows
 - **[kakoune](https://github.com/mawww/kakoune)** — A modal editor with multiple selections as the central editing primitive. [`Unlicense`](https://github.com/mawww/kakoune) ⭐ 11.1k [website](https://kakoune.org/) linux/macos
 - **[neovim](https://github.com/neovim/neovim)** — A hyperextensible, Vim-based text editor built for the modern terminal. [`Apache-2.0`](https://github.com/neovim/neovim) ⭐ 102.7k [website](https://neovim.io/) linux/macos/windows
-- **[vim](https://github.com/vim/vim)** — The ubiquitous, highly configurable modal text editor. [`Vim`](https://www.vim.org/about.php: charityware, GPL-compatible Vim license) ⭐ 41k [website](https://www.vim.org/) linux/macos/windows
+- **[vim](https://github.com/vim/vim)** — The ubiquitous, highly configurable modal text editor. [`Vim`](https://www.vim.org/about.php) ⭐ 41k [website](https://www.vim.org/) linux/macos/windows
 
 ## 📊 System Monitoring
 
@@ -126,7 +126,7 @@ Slice, query, and transform structured data.
 - **[duckdb](https://github.com/duckdb/duckdb)** — An in-process analytical database with a handy interactive SQL shell. [`MIT`](https://github.com/duckdb/duckdb) ⭐ 41.8k [website](https://duckdb.org/) linux/macos/windows
 - **[jq](https://github.com/jqlang/jq)** — A lightweight command-line JSON processor with a tiny functional language. [`MIT`](https://github.com/jqlang/jq) ⭐ 35.7k [website](https://jqlang.github.io/jq/) linux/macos/windows
 - **[miller](https://github.com/johnkerl/miller)** — Like awk, sed and sort for structured data: CSV, JSON, TSV and more. [`BSD-2-Clause`](https://github.com/johnkerl/miller) ⭐ 10k [website](https://miller.readthedocs.io/) linux/macos
-- **[sqlite3](https://sqlite.org/src)** — The self-contained, serverless SQL database engine and its CLI shell. [`public-domain`](https://www.sqlite.org/copyright.html: public domain) [website](https://www.sqlite.org/) linux/macos/windows
+- **[sqlite3](https://sqlite.org/src)** — The self-contained, serverless SQL database engine and its CLI shell. [`public-domain`](https://www.sqlite.org/copyright.html) [website](https://www.sqlite.org/) linux/macos/windows
 - **[yq](https://github.com/mikefarah/yq)** — A portable jq wrapper for YAML, JSON, XML and TOML documents. [`MIT`](https://github.com/mikefarah/yq) ⭐ 16k [website](https://mikefarah.gitbook.io/yq/) linux/macos/windows
 
 ## 📝 Text Processing
@@ -147,8 +147,8 @@ Audio, video, and image tools for the terminal.
 
 - **[beets](https://github.com/beetbox/beets)** — The music library manager: autotags, organizes and deduplicates your collection. [`MIT`](https://github.com/beetbox/beets) ⭐ 15.7k [website](https://beets.io/) linux/macos
 - **[cmus](https://github.com/cmus/cmus)** — A small, fast and powerful console music player. [`GPL-2.0-or-later`](https://github.com/cmus/cmus) ⭐ 6.3k [website](https://cmus.github.io/) linux/macos
-- **[ffmpeg](https://github.com/FFmpeg/FFmpeg)** — The complete cross-platform solution to record, convert and stream audio/video. [`LGPL-2.1-or-later`](https://ffmpeg.org/legal.html: LGPL-2.1-or-later (GPL-2.0-or-later with --enable-gpl)) ⭐ 64.7k [website](https://ffmpeg.org/) linux/macos/windows *LGPL-2.1-or-later by default; GPL-2.0-or-later applies if built with --enable-gpl.*
-- **[imagemagick](https://github.com/ImageMagick/ImageMagick)** — Create, edit, compose and convert bitmap images from the command line. [`ImageMagick`](https://imagemagick.org/license/: custom ImageMagick License (Apache-derived, GPLv3-compatible)) ⭐ 17.6k [website](https://imagemagick.org/) linux/macos/windows
+- **[ffmpeg](https://github.com/FFmpeg/FFmpeg)** — The complete cross-platform solution to record, convert and stream audio/video. [`LGPL-2.1-or-later`](https://ffmpeg.org/legal.html) ⭐ 64.7k [website](https://ffmpeg.org/) linux/macos/windows *LGPL-2.1-or-later by default; GPL-2.0-or-later applies if built with --enable-gpl.*
+- **[imagemagick](https://github.com/ImageMagick/ImageMagick)** — Create, edit, compose and convert bitmap images from the command line. [`ImageMagick`](https://imagemagick.org/license/) ⭐ 17.6k [website](https://imagemagick.org/) linux/macos/windows
 - **[mpv](https://github.com/mpv-player/mpv)** — A free, keyboard-driven media player with powerful scripting. [`GPL-2.0-or-later`](https://github.com/mpv-player/mpv) ⭐ 37.2k [website](https://mpv.io/) linux/macos/windows
 - **[sox](https://sourceforge.net/projects/sox/)** — The Swiss Army knife of sound processing: play, record and convert audio. [`GPL-2.0-or-later AND LGPL-2.1-or-later`](https://sox.sourceforge.net/) [website](https://sox.sourceforge.net/) linux/macos/windows
 - **[yt-dlp](https://github.com/yt-dlp/yt-dlp)** — A feature-rich downloader for YouTube and hundreds of other video sites. [`Unlicense`](https://github.com/yt-dlp/yt-dlp) ⭐ 194.5k linux/macos/windows
@@ -175,7 +175,7 @@ Encryption, secrets management, and security scanning.
 - **[age](https://github.com/FiloSottile/age)** — A simple, modern and secure file encryption tool by Filippo Valsorda. [`BSD-3-Clause`](https://github.com/FiloSottile/age) ⭐ 23.8k linux/macos/windows
 - **[bitwarden-cli](https://github.com/bitwarden/clients)** — Bitwarden's official command-line vault — fetch and manage secrets. [`GPL-3.0`](https://github.com/bitwarden/clients) ⭐ 13.9k [website](https://bitwarden.com/help/cli/) linux/macos/windows
 - **[doppler](https://github.com/DopplerHQ/cli)** — A secrets-management platform with a first-class CLI for every environment. [`Apache-2.0`](https://github.com/DopplerHQ/cli) ⭐ 397 [website](https://www.doppler.com/) linux/macos/windows *CLI is Apache-2.0; requires Doppler's proprietary cloud service.*
-- **[pass](https://git.zx2c4.com/password-store/)** — The standard Unix password manager: GPG-encrypted passwords in plain git. [`GPL-2.0-or-later`](https://www.passwordstore.org/: 'licensed under the GPLv2+') [website](https://www.passwordstore.org/) linux/macos
+- **[pass](https://git.zx2c4.com/password-store/)** — The standard Unix password manager: GPG-encrypted passwords in plain git. [`GPL-2.0-or-later`](https://www.passwordstore.org/) [website](https://www.passwordstore.org/) linux/macos
 - **[semgrep](https://github.com/semgrep/semgrep)** — Fast static analysis that finds bugs and enforces code standards (open-core). [`LGPL-2.1`](https://github.com/semgrep/semgrep) ⭐ 16.8k [website](https://semgrep.dev/) linux/macos
 - **[snyk](https://github.com/snyk/cli)** — Developer-first security scanning CLI with a free tier for open source. [`Apache-2.0`](https://github.com/snyk/cli) ⭐ 5.7k [website](https://snyk.io/) linux/macos/windows *CLI is Apache-2.0; the Snyk platform is commercial (free tier available).*
 - **[sops](https://github.com/getsops/sops)** — Encrypt secrets inside YAML/JSON/INI files, with AWS/GCP/Azure/PGP backends. [`MPL-2.0`](https://github.com/getsops/sops) ⭐ 23.3k [website](https://getsops.io/) linux/macos/windows
@@ -198,7 +198,7 @@ AI assistants that live in your terminal. Licenses labeled honestly.
 
 Libraries for building command-line apps, by language.
 
-- **[argparse](https://docs.python.org/3/library/argparse.html)** — Python's standard-library parser for command-line options and subcommands. [`PSF-2.0`](https://docs.python.org/3/license.html: PSF License Version 2) linux/macos/windows
+- **[argparse](https://docs.python.org/3/library/argparse.html)** — Python's standard-library parser for command-line options and subcommands. [`PSF-2.0`](https://docs.python.org/3/license.html) linux/macos/windows
 - **[bubbletea](https://github.com/charmbracelet/bubbletea)** — A Go framework for building terminal apps on the Elm architecture. [`MIT`](https://github.com/charmbracelet/bubbletea) ⭐ 45.2k linux/macos/windows
 - **[clap](https://github.com/clap-rs/clap)** — The de-facto command-line argument parser for Rust. [`MIT OR Apache-2.0`](https://github.com/clap-rs/clap) ⭐ 16.7k [website](https://docs.rs/clap) linux/macos/windows
 - **[click](https://github.com/pallets/click)** — Python's composable toolkit for building command-line interfaces. [`BSD-3-Clause`](https://github.com/pallets/click) ⭐ 17.8k [website](https://click.palletsprojects.com/) linux/macos/windows

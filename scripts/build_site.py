@@ -97,6 +97,14 @@ def fmt_stars(stars) -> str:
     return f"⭐ {stars}"
 
 
+def clean_url(v):
+    """Keep only the leading URL token; drop trailing prose like '...: license note'."""
+    if not v:
+        return None
+    tok = v.strip().split()[0].rstrip(".,;:'\"")
+    return tok if tok.startswith("https://") else None
+
+
 def load_entries() -> list[dict]:
     raw = json.loads(RESEARCH.read_text(encoding="utf-8"))
     entries = []
@@ -112,11 +120,12 @@ def load_entries() -> list[dict]:
             repo_url = homepage or ""
         lic = normalize_license((r.get("license") or "unverified").strip())
         verified = bool(r.get("verified"))
-        vsrc = (r.get("verified_source") or "").strip() or None
-        if verified and (not vsrc or not vsrc.startswith("http")):
+        vsrc = clean_url(r.get("verified_source"))
+        if verified and not vsrc:
             # Researcher recorded prose instead of a URL; fall back to the most
             # authoritative link available (the repo page shows license info).
             vsrc = repo_url if repo_url.startswith("https://github.com/") else (homepage or repo_url)
+            vsrc = clean_url(vsrc)
         plats = r.get("platforms")
         if isinstance(plats, list):
             plats = "/".join(plats)
